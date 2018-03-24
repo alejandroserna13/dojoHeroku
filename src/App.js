@@ -8,11 +8,16 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">¡¡ Hola Mundo !!</h1>
+          <h1 className="App-title">¡¡ Hola Mundo React !!</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <header className="App-header1">
+        <h1 className="App-title2">Responsables</h1>
+          <h1 className="App-title3">Alejandro Serna J.</h1>
+          <h1 className="App-title4">Jesus David Gomez</h1>
+        </header>
+        <header className="App-header2">
+          <img src={logo} className="App-logo" alt="logo" />
+        </header>
       </div>
     );
   }
